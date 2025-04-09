@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content .pertama{
+    color: rgb(0, 216, 18);
+}
+.content .kedua{
+    color: rgb(255, 0, 0);
+}
+.tombol{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mulai {
+    background-color: green; 
+}
+.berhenti {
+    background-color: yellow;
+}
+.reset{
+    background-color: red;
+}

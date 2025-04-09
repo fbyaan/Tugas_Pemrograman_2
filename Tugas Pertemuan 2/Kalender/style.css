@@ -1,0 +1,61 @@
+/* Table style dengan border */
+.menu{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+ .button-kanan{
+    background-color: hwb(189 0% 0%);
+    border: yellowgreen;
+    font-weight: bold;
+
+ }
+
+ .button-kiri{
+    background-color:  hwb(189 0% 0%);
+    border: yellowgreen; 
+    font-weight: bold;
+ }
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 2px solid #333; /* Memberikan border di seluruh tabel */
+}
+
+table td {
+    border: 2px solid #333333; 
+    padding: 10px;
+    text-align: center;
+}
+
+.utama{
+    background-color: red;
+}
+
+table tr:first-child td {
+    background-color: #00c3ff;
+    color: white;
+    font-weight: bold;
+}
+
+table tr td:first-child {
+    font-weight: bold;
+}
+
+table tr td {
+    color: #000000;
+    font-weight: bold;
+}
+
+
